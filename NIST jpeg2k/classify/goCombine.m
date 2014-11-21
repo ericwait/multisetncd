@@ -125,4 +125,4 @@ idxRemove=find(rgTest(:,3)==-1);
 rgTest(idxRemove,:)=[];
 rgTest=rgTest(:,3:end);
 
-save('combine.mat','rgTest','rgTrain');
+save('..\results\combine.mat','rgTest','rgTrain');
